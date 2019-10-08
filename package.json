@@ -6,7 +6,7 @@
 	"author": "",
 	"license": "ISC",
 	"scripts": {
-		"start": "node index.js"
+		"start": "now dev"
 	},
 	"keywords": [],
 	"dependencies": {
