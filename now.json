@@ -11,6 +11,14 @@
 			"continue": true
 		},
 		{
+			"src": "/base/(.*)",
+			"dest": "/base/$1.js",
+			"headers": {
+				"Access-Control-Allow-Origin": "*"
+			},
+			"continue": true
+		},
+		{
 			"src": "/*",
 			"headers": {
 				"Access-Control-Allow-Origin": "*"
