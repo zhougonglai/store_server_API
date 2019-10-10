@@ -8,6 +8,7 @@ module.exports = (req, res) => {
 				imageUrl: 'https://api.adorable.io/avatars/285' + '/@id()' + '.png',
 				memberNo: '@guid',
 			},
+			status: true,
 		}),
 	);
 };

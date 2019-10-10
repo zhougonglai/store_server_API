@@ -1,5 +1,8 @@
 module.exports = (req, res) => {
 	res.json({
-		name: 'john.zhou',
+		data: {
+			name: 'john.zhou',
+		},
+		status: true,
 	});
 };

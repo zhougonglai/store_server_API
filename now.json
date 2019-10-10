@@ -1,5 +1,4 @@
 {
-	"name": "store-server",
 	"builds": [{ "src": "*/**.js", "use": "@now/node" }],
 	"routes": [
 		{
