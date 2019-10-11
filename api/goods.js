@@ -16,7 +16,8 @@ module.exports = (req, res) => {
 							ultimately: '@float(1,3000,0,2)',
 							original: '@float(1,3000,0,2)',
 						},
-						types,
+						fresh: '@boolean',
+						'type|1': [2, 5, 10],
 						mean_rate: '@float(1,5,0,1)',
 						cover: 'https://api.adorable.io/avatars/285' + '/@id()' + '.png',
 						'pictures|2-6': [
