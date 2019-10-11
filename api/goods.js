@@ -3,7 +3,6 @@ const Mock = require('mockjs');
 // const type = ['fresh', '2', '5', '10'];
 
 module.exports = (req, res) => {
-	const types = req.query.type.split(',');
 	res.json(
 		Mock.mock({
 			data: {
@@ -16,8 +15,8 @@ module.exports = (req, res) => {
 							ultimately: '@float(1,3000,0,2)',
 							original: '@float(1,3000,0,2)',
 						},
-						fresh: '@boolean',
-						'type|1': [2, 5, 10],
+						fresh: req.query.type === 'fresh',
+						'type|1': req.query.type.split(','),
 						mean_rate: '@float(1,5,0,1)',
 						cover: 'https://api.adorable.io/avatars/285' + '/@id()' + '.png',
 						'pictures|2-6': [
