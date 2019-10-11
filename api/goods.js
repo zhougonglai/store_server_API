@@ -17,7 +17,7 @@ module.exports = (req, res) => {
 						},
 						fresh: req.query.type === 'fresh',
 						'type|1': req.query.type.split(','),
-						mean_rate: '@float(1,5,0,1)',
+						mean_rate: '@float(1, 4, 0, 1)',
 						cover: 'https://api.adorable.io/avatars/285' + '/@id()' + '.png',
 						'pictures|2-6': [
 							{
