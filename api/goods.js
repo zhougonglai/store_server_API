@@ -19,6 +19,12 @@ module.exports = (req, res) => {
 						types,
 						mean_rate: '@float(1,5,0,1)',
 						cover: 'https://api.adorable.io/avatars/285' + '/@id()' + '.png',
+						'pictures|2-6': [
+							{
+								url: 'https://api.adorable.io/avatars/285' + '/@id()' + '.png',
+								alt: '@csentence(3, 9)',
+							},
+						],
 					},
 				],
 			},
