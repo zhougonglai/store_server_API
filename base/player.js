@@ -13,7 +13,7 @@ module.exports = (req, res) => {
 					adress: '@city',
 					'service|1-5': [
 						{
-							'game|1-6': [
+							'game|1': [
 								'英雄联盟',
 								'绝地求生',
 								'王者荣耀',
