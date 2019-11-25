@@ -7,7 +7,7 @@ module.exports = (req, res) => {
 				{
 					user_id: '@id',
 					nickname: '@cname',
-					label: '@cword(3,6)',
+					label: '@cword(5,15)',
 					'gender|1': [0, 1],
 					age: '@natural(16, 45)',
 					adress: '@city',
