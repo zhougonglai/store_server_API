@@ -3,7 +3,7 @@ const Mock = require('mockjs');
 module.exports = (req, res) => {
 	res.json(
 		Mock.mock({
-			'data|4-8': [
+			'data|10': [
 				{
 					user_id: '@id',
 					nickname: '@cname',
